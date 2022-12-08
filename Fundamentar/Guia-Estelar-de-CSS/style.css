@@ -1,0 +1,18 @@
+* {
+    margin: 0
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+    background-color: gray;
+}
+
+.title {
+    color: blue;
+}
+
+#top1 {
+    color: gray;
+    background-color: violet;
+}
