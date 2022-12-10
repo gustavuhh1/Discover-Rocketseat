@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div><p>Video</p></div>
+    <video src="./src/videoplayback.mp4" controls
+    width="500px" 
+    height="400px" 
+    preload="metadata" 
+    muted
+    >
+    <source src="./src/videoplayback.mp4" type="video/mp4">
+    <p>o browser não suporta esse video</p>
+    </video>
+
+    <div><p>Audio</p></div>
+
+    <audio src="./src/audio.mp3" 
+    controls
+    >
+        <source src="./src/audio.mp3" type="audio/mp3">
+        <source src="./src/audio.mp3" type="audio/ogg">
+        <p>Seu navegador não suporta audio</p>
+    </audio>
+
+    <div><p>Iframe</p></div>
+
+    <iframe width="550" 
+    height="300" 
+    src="https://www.youtube.com/embed/xVVHZ_CJllg" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
+    allowfullscreen
+    ></iframe>
+
+    <div>
+        <p> Imagem</p>
+    </div>
+    <a href="https://google.com" target="_blank">
+        <img src="https://source.unsplash.com/random" 
+        alt="imagem aleatoria"
+        title="Colocar um titulo na imagem"
+        width="550px"
+        height="400px"
+        >
+    </a>
+
+    <div>
+        <p>Desafio</p>
+    </div>
+    <a href="https://rocketseat.com.br" target="_blank">
+        <img src="https://rocketseat.com.br/icons/icon-48x48.png" alt="icon rocketseat" 
+    title="Rocketseat"
+    height="50px">
+    </a>
+    
+    <div><p>Figcaption</p></div>
+    <a href="https://google.com">
+        <div class="figure">
+        
+            <img src="https://source.unsplash.com/random" alt="imagem de title"
+            title="title"
+            height="250px">
+        
+        <figcaption>Colocar um título na imagem</figcaption>
+        </div>
+    </a>
+
+    <div>
+        <p>Imagem svg</p>
+    </div>
+    
+    <svg height="140" width="500">
+  <ellipse cx="200" cy="80" rx="100" ry="50" style="fill:yellow;stroke:purple;stroke-width:2" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+</body>
+</html>

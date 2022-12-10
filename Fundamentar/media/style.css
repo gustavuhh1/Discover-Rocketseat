@@ -1,0 +1,9 @@
+body {
+    margin: 100px 0px;
+}
+
+div p {
+    font-size: 30px;
+    border: 0.2em double rgb(126, 70, 201);
+}
+
