@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+header {
+    /* height: 100px;
+    border: 7px dashed red;
+    padding: 16px; */
+
+}
+
+main {
+    color: white;
+
+        background-color: rgb(55, 100, 50);
+        background-image: url(../box-model/img/img1);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-origin: content-box;
+        background-clip: content-box;
+        background-attachment: fixed;
+
+    background: linear-gradient(rgba(226, 219, 219, 0)),rgb(55, 100, 50) url(../box-model/img/img1) no-repeat top / 50px border-box content-box fixed;
+
+}
