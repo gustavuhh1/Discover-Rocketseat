@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Formulários</h1>
+
+    <div>label</div>
+
+    <label for="nome"> Nome Completo: </label>
+    <input id="nome" type="text" />
+
+    <div>button</div>
+    <input type="text" value="Digite aqui" />
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+    <button autofocus>Foco</button>
+    <button disabled="disabled">Disable</button>
+    <!-- <form> para link para um formulario -->
+
+    <div>Datalist</div>
+    <input type="text" list="fruitsdata" placeholder="Escolha um fruta" />
+
+    <datalist id="fruitsdata">
+      <option>apple</option>
+      <option>banana</option>
+      <option>mango</option>
+      <option>orange</option>
+      <option>cherry</option>
+    </datalist>
+
+    <datalist id="colorsdata">
+      <option>#ff0000</option>
+      <option>#00ff00</option>
+    </datalist>
+
+    <input type="color" list="colorsdata" />
+
+    <div>input</div>
+
+    <form id="meu-form"></form>
+
+    <label for="">Email</label>
+
+    <input
+      id=""
+      name="email "
+      type="email"
+      autocomplete="email"
+      form="meu-form"
+      required
+      placeholder="Email"
+    />
+
+    <div>Input password</div>
+    <form action="">
+      <input
+        type="password"
+        pattern="[0-9a-fA-F]{4,8}"
+        title="Coloque HEX no min 4 caracteres e no máximo 8 caracteres"
+        placeholder="Coloque sua senha"
+        required
+        inputmode="numeric"
+        autocomplete="on"
+      />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div>Input email</div>
+
+    <form action="">
+      <input
+        type="email"
+        name=""
+        id=""
+        title="somente emails rocketseat"
+        multiple
+        minlength="8"
+        pattern=".+@rocketseat\.com\.br"
+        placeholder="email@rocketseat.com.br"
+      />
+    </form>
+
+    <div>existe mais e mais outros input (Preguiça🫠)</div>
+    <div>Desafio</div>
+    <form action="">
+      <fieldset>
+      <legend>Contato</legend>
+      <label for="name">Nome</label>
+      <br>
+      <input type="text" name="Nome" id="name"placeholder='Nome'>
+      <br>
+      <label for="email">Email</label>
+      <br>
+      <input type="email" name="email" id="email"placeholder="email">
+      <br>
+      <label for="textarea">Mensagem</label>
+      <br>
+      <textarea name="textare" id="textare" cols="30" rows="10"placeholder="Digite sua mensagem"></textarea>
+      <br>
+      <button type="submit" style="margin-top: 10px;background-color: aqua;">Enviar</button>
+
+
+
+      </fieldset>
+    </form>
+    
+  </body>
+</html>

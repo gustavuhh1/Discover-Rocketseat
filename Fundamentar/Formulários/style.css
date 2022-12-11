@@ -1,0 +1,16 @@
+* {
+    font-family: "Montserrat";
+}
+
+div {
+    margin: 20px 0;
+    border: 5px groove rgb(253, 105, 105);
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: underline ;
+    text-transform: capitalize;
+}
+
+fieldset input {
+    margin: 0 0 20px 0;
+}
